@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+@font-face {
+    font-family: "RobotoCondensed-Regular";
+    src: url("Fonts/RobotoCondensed-Regular.ttf") format("ttf"),
+        url("Fonts/RobotoCondensed-Light.ttf") format("ttf2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    background-color: #c1daa999;
+    background-image: url("Pictures/header-background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.company-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "RobotoCondensed-Regular";
+    font-weight: normal;
+    color: white;
+}
+/* Main company logo size */
+.company-name-large {
+    font-size: 6em;
+    text-align: center;
+     font-family: "RobotoCondensed-Regular";
+     font-weight: normal;
+     color: white;
+     margin: 0;
+    
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+max-width: 900px;
+margin: 0 auto;
+padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "PT Serif";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-company-image {
+    
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+    
+}
+
+.main-footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #50881f99;
+    color: white;
+    padding: .25em 0;
+    
+    
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.schedule-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em; 
+    margin-bottom: 1em;
+}
+
