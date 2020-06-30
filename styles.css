@@ -66,6 +66,7 @@ html, body {
     font-weight: normal;
     color: white;
 }
+
 /* Main company logo size */
 .company-name-large {
     font-size: 6em;
@@ -86,6 +87,7 @@ max-width: 900px;
 margin: 0 auto;
 padding: 0 1.5em;
 }
+
 
 .section-header {
     font-family: "PT Serif";
@@ -112,15 +114,13 @@ padding: 0 1.5em;
     background-color: #50881f99;
     color: white;
     padding: .25em 0;
-    
+    margin-top: 20px;
     
 }
 
 .main-footer-container {
     display: flex;
     align-items: center;
-    
-    
 }
 
 .main-footer-container ul {
@@ -150,3 +150,42 @@ padding: 0 1.5em;
     margin-bottom: 1em;
 }
 
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+
+}
+
+.shop-item-image {
+    height: 250px;
+    width: 380px
+
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+    text-align: center;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
