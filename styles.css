@@ -98,13 +98,24 @@ padding: 0 1.5em;
 }
 
 .about-company-image {
-    
-    height: 200px;
-    width: 200px;
+    float: left;
+    height: 450px;
+    width: 450px;
     margin: 15px;
     border-radius: 50%;
-    
 }
+
+.inner-paragrah {
+    overflow: hidden;
+    font-size: 1.5em;
+}
+
+.contact-info {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 .main-footer {
     position: relative;
@@ -113,7 +124,7 @@ padding: 0 1.5em;
     width: 100%;
     background-color: #50881f99;
     color: white;
-    padding: .25em 0;
+    padding: .25rem;
     margin-top: 20px;
     
 }
